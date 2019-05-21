@@ -1,6 +1,6 @@
 <template>
   <div class="sort">
-    <router-link to="/sort">sort</router-link>
+
   </div>
 
 </template>
@@ -11,6 +11,6 @@
     }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus" scoped>
+<style lang="stylus" rel="stylesheet/stylus">
 
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="generalThings">
-    <router-link to="/generalThings">generalThings</router-link>
+    <router-link to="/generalThings"></router-link>
   </div>
 
 </template>

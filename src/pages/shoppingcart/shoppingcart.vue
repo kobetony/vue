@@ -1,6 +1,6 @@
 <template>
   <div class="shopPingCart">
-    <router-link to="/shopPingCart">shopPingCart</router-link>
+    <router-link to="/shopPingCart"></router-link>
   </div>
 </template>
 

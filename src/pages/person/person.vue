@@ -1,7 +1,6 @@
 <template>
-
   <div class="person">
-    <router-link to="/person">person</router-link>
+
   </div>
 </template>
 
@@ -11,6 +10,6 @@
     }
 </script>
 
-<style scoped>
 
+<style lang="stylus" rel="stylesheet/stylus">
 </style>

@@ -1,10 +1,9 @@
 <template>
   <div id="app">
-<!--    <project-header>-->
+    <project-header></project-header>
 
-<!--  </project-header>-->
-<project-footer></project-footer>
     <router-view></router-view>
+    <project-footer></project-footer>
   </div>
 </template>
 

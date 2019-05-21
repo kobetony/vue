@@ -1,8 +1,11 @@
-import  generalThings  from "../generalthings"
-import  homepage  from "../homepage"
-import  person  from "../person"
-import  shopPingCart  from "../shoppingcart"
-import   sort  from "../sort"
+import  generalThings  from "../generalthings/generalthings"
+import  homepage  from "../homepage/homepage"
+import  person  from "../person/person"
+import  shopPingCart  from "../shoppingcart/shoppingcart"
+import   sort  from "../sort/sort"
+import search from "../../components/search/searchtext/searchtext"
+import     peron   from "../person/EmailLogin/EmailLogin"
+
 
 const routes = [
   {path:"/generalThings",component:generalThings},
@@ -10,6 +13,7 @@ const routes = [
   {path:"/person",component:person},
   {path:"/shopPingCart",component:shopPingCart},
   {path:"/sort",component:sort},
+  {path:"/search",component:search},
   {path:"",redirect:"/homepage"}
 ]
 export default routes

@@ -7,8 +7,6 @@ import 'lib-flexible/flexible'
 import "./mockdata/mockServer"
 
 Vue.config.productionTip = false
-
-
 new Vue({
   el: '#app',
 
